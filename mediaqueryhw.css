@@ -1,0 +1,46 @@
+body {
+	background-color: #414141;
+	color: white;
+	font-family: sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+img {
+	height: 400px;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.header {
+	display: block;
+	position: fixed;
+	background-color: #414141;
+}
+
+ul li {
+	display: inline-block;
+	font-size: 30px;
+	margin: 10px
+}
+
+.image {
+	float:left;
+	border: 5px solid black;
+	margin: 5px;
+}
+
+ @media all and (max-width: 800px) {
+        .image {
+          border: solid white;
+        }
+
+        img {
+        	 height: 200px;
+        }
+      }
